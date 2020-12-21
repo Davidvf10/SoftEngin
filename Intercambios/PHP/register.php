@@ -1,0 +1,29 @@
+<?php
+PRINT <<< HERE
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="../valiregistro.php" method="POST">
+        <h1>Formulario para registrarse</h1>
+        <p>Nombre: <input type="text" placeholder="Nombre" name="nombre" required></p>
+        <p>Apellido Paterno: <input type="text" placeholder="Apellido Paterno" name="apaterno" required></p>
+        <p>Apellido Materno: <input type="text" placeholder="Apellido Materno" name="amaterno" required></p>
+        <p>Correo: <input type="email" name="usuario" placeholder="usaurio@correo.com" required></p>
+        <p>Contraseña: <input type="password" name="password" placeholder="*******" required></p>
+        <p>Alias: <input type="text" name="alias" placeholder="Nombre_Alias"></p>
+        <p>Teléfono: <input type="tel" name="telefono"></p>
+        <input type="submit" value="Registrar">
+    </form>
+    <a href="index.html">Iniciar Sesion</a>
+
+</body>
+</html>
+HERE;
+?>

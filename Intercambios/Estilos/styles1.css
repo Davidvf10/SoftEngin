@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+h1 {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-image: url(../Imagenes/regalo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    min-height: 300px;
+    margin-top: 5%;
+}
+
+.container {
+    background-image: url(../Imagenes/regalo2.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+    min-height: 200px;
+    display: flex;
+    /*order: 5;*/
+    /*flex-grow: 1;*/
+    /*flex-basis: auto;*/
+    background-color: antiquewhite;
+    flex-direction: column;
+    /*align-items: content;*/
+    justify-content: center;
+    justify-content: space-between;
+    margin: 30% 15% 20% 15%;
+}
+
+.sesion {
+    color: white;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    margin: 0 20% 2% 20%;
+}
+
+.contrasena {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    margin: 0 20% 3% 20%;
+}
+
+.btn-iniciar-sesion {
+    margin: 1rem 20% .5rem 20%;
+}
+
+.btn-registro {
+    text-decoration: none;
+    margin: .5rem 30% 1rem 30%;
+}
+
+@media (min-width: 1px) and (max-width: 481px) {
+    h1 {
+        text-align: center;
+        font-family: 'Source Code Pro', monospace;
+        font-size: x-large;
+        padding-top: 15%;
+        margin-bottom: 0%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .usuario {
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        font-size: smaller;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15% 1% 15%;
+    }
+    .contrasena {
+        font-family: 'Indie Flower', cursive;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 15% 4% 15%;
+    }
+    input.btn-iniciar-sesion {
+        float: none;
+        text-align: center;
+    }
+    .btn-registro {
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        margin: 1rem 10% 1rem 10%;
+        padding-top: 0%;
+    }
+    .btn-submit {
+        display: flex;
+        align-content: center;
+        padding-left: 15%;
+    }
+}

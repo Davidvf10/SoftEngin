@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intercambios</title>
+    <link rel="stylesheet" href="Estilos/styles1.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="PHP/validar.php" method="POST">
+            <h1 class="sesion">Iniciar Sesión</h1>
+            <p class="usuario">Usuario: <input type="text" placeholder="Usuario@correo.com" name="usuario" required></p>
+            <p class="contrasena">Contraseña: <input type="password" placeholder="*******" name="password" required></p>
+            <div class="btn-submit">
+                <input style="width: 40%; background-color: rgba(255, 123, 0, 0.3); color:white; font-size: 115%; font-family:cursive;" type="submit" value="Ingresar" class="btn-iniciar-sesion">
+            </div>
+        </form>
+        <a href="registro.html" class="btn-registro">¿Aún no tiene cuenta?  Registrarse</a>
+    </div>
+</body>
+
+</html>
